@@ -137,7 +137,7 @@ def splitter(filepath, output_path, delim=',', useHeaders = True, splitbycol = 0
 					currentOutWrite = csv.writer(open(currentOutPath,'w',newline=''), delimiter = delim)
 					checkExisting.append(current_category)
 					if useHeaders:
-						currentOutWrite.writerow(header_row)
+#						currentOutWrite.writerow(header_row)
 						print("")
 						print("")
 						print("Creating: " + str(current_category) +".csv")
